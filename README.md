@@ -31,6 +31,7 @@ Luego de correr el proyecto los servicios expuesto son:
 #### Listar todo los colores:
 Request: 
 http://localhost:8080/integra/colores?formato=json
+
 http://localhost:8080/integra/colores?formato=xml
 
 Response: 
@@ -69,6 +70,7 @@ Response:
 #### Listar colores por paginado
 Request: 
 http://localhost:8080/integra/colores/paginado/{pagina}?formato=json
+
 http://localhost:8080/integra/colores/paginado/{pagina}?formato=xml
 
 Response:
@@ -112,6 +114,7 @@ Response:
 #### Consultar color por id
 Request:
 http://localhost:8080/integra/colores/{id}
+
 http://localhost:8080/integra/colores/{id}?formato=xml
 
 Response:
@@ -138,6 +141,7 @@ Response:
 #### Registrar color
 Request:
 http://localhost:8080/integra/colores
+
 http://localhost:8080/integra/colores?formato=xml
 
 Response:
@@ -165,7 +169,7 @@ Response:
 Para visualizar la documentación Swagger, ejecutar el proyecto, copiar el siguiente link en el browser:
 http://localhost:8080/integra/api-docs/swagger-ui/index.html
 
-En el buscador (Explorer) colocar el parrafo: /integra/v2/api-docs
+En el buscador (Explorer) colocar la sentencia: /integra/v2/api-docs
 
 
 ------------
